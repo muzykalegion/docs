@@ -39,4 +39,10 @@
   ```
   colcon build --symlink-install
   ```
+___
   In case of failed build see [link](https://github.com/ros-tooling/libstatistics_collector/pull/165)
+  
+  Update next files with `#include <cstdint>`
+  - ros2_humble/src/ros-tooling/libstatistics_collector/include/libstatistics_collector/moving_average_statistics/types.hpp
+  - ros2_humble/src/ros2/rosbag2/rosbag2_compression/include/rosbag2_compression/compression_options.hpp
+   
