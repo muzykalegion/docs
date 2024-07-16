@@ -1,4 +1,4 @@
-## OLED display examples
+## OLED 128x32 display examples
 Copied from [Adafruit CircuitPython SSD1306](https://github.com/adafruit/Adafruit_CircuitPython_SSD1306)
 
 ### Install
