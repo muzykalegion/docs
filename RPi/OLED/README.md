@@ -6,7 +6,7 @@ Copied from [Adafruit CircuitPython SSD1306](https://github.com/adafruit/Adafrui
   sudo pip3 install adafruit-circuitpython-ssd1306
   ```
 ### Usage
-  ```
+  ```python
   # SPDX-FileCopyrightText: 2017 Tony DiCola for Adafruit Industries
   # SPDX-FileCopyrightText: 2017 James DeVito for Adafruit Industries
   # SPDX-License-Identifier: MIT
