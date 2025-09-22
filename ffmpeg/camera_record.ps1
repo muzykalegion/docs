@@ -1,0 +1,1 @@
+ffmpeg -f dshow -i video="Integrated Camera":audio="Microphone (Realtek(R) Audio)" -vcodec libx265 -preset ultrafast -vf scale=1280:720 -r 15 -crf 28 -acodec aac -b:a 64k -f segment -strftime 1 output_%Y%m%d_%H%M%S.mp4
